@@ -9,6 +9,7 @@ class TestPE21(unittest.TestCase):
     def test_properDivisors(self):
         c = self.c
         self.assertEqual(c.properDivisors(1), [])
+        self.assertEqual(c.properDivisors(4), [1, 2])
         self.assertEqual(c.properDivisors(220),
                          [1, 2, 4, 5, 10, 11, 20, 22, 44, 55, 110])
         self.assertEqual(c.properDivisors(284),
