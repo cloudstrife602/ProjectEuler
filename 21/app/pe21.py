@@ -19,7 +19,8 @@ class PE21(object):
         for i in range(2, int(pow(n, 0.5)) + 1):
             if (n % i == 0):
                 divisors.append(i)
-                divisors.append(int(n/i))
+                if not (int(n/i) == i):
+                    divisors.append(int(n/i))
         return sorted(divisors)
 
     def d(self, n):
