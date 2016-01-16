@@ -1,7 +1,10 @@
 import unittest
 from app.pe24 import PE24
 
+
 class TestPE24(unittest.TestCase):
+    """ Defines tests for Project Euler 24"""
+
     def setUp(self):
         self.p = PE24()
 

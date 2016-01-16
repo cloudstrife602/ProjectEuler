@@ -20,6 +20,7 @@ import itertools
 
 
 class PE24(object):
+    """Brute force solution to PE24."""
 
     def permutations(self, integers):
         integers.sort()
