@@ -53,7 +53,7 @@ class PE25(object):
         return math.ceil(intermediate)
 
 p = PE25()
-n = 1
+n = 1000
 f = p.firstFibWithNDigits(n)
 print("The first fibonacci number with", n, "digits is", f)
 print("Fib(", f, "): ", p.fibonacci(f))
